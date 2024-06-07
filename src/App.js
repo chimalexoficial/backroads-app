@@ -1,7 +1,20 @@
+import { Tours } from "./components/Tours";
+import { About } from "./components/About";
+import { Footer } from "./components/Footer";
+import { Hero } from "./components/Hero";
+import { Navbar } from "./components/Navbar";
+import { Services } from "./components/Services";
 
 function App() {
   return (
-    <h1>App</h1>
+    <>
+      <Navbar />
+      <Hero />
+      <About />
+      <Services />
+      <Tours />
+      <Footer />
+    </>
   );
 }
 
